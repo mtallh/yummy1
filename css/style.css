@@ -1,0 +1,84 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6;
+    overflow: visible;
+}
+.logo{
+    width: 50px;
+}
+.side-nav-menu {
+    z-index: 99;
+   
+}
+#toggle{
+    font-weight: 900;
+    font-size: 35px;
+}
+#sidnav{
+    background-color: #0D0D0D;
+    left: 250px;
+   
+}
+.container{
+    background-color: #0D0D0D;
+}
+
+#rowData .meal{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+#rowData .meal-layer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    bottom: 5px;
+    background-color: #f9f6f6ca;
+    transition: .5s;
+    text-align: center;
+   
+}
+#rowData .meal-layer h3 ,.meal-layer p{
+    color: #0D0D0D;
+}
+#rowData .meal:hover .meal-layer{
+    top: 0;
+}
+#rowData i{
+    font-size: 65px;
+}
+.alert{
+    width: fit-content;
+}
+#loading-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  color: #fff;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
